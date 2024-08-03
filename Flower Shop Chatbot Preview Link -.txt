@@ -1,0 +1,4 @@
+Flower Shop Chatbot Preview Link :-
+
+https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fau-syd.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-8feab70b-4ee3-4a25-af51-612b474c15bf%3A%3A36f3afd9-336d-4c1d-b284-06c70a44a00c&integrationID=4bb7e50e-938f-4bd5-9c4b-8fc53db5d3ad&region=au-syd&serviceInstanceID=8feab70b-4ee3-4a25-af51-612b474c15bf
+
