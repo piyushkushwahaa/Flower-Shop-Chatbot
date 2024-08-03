@@ -1,0 +1,948 @@
+{
+  "name": "Flower Shop Chatbot-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 5,
+    "entities": 3,
+    "dialog_nodes": 18
+  },
+  "status": "Available",
+  "created": "2024-08-03T07:18:11.147Z",
+  "updated": "2024-08-03T07:18:11.147Z",
+  "language": "en",
+  "skill_id": "1bdb1ccc-94fa-45f1-b9fc-0dcc49c21928",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2024-08-03T07:18:11.147Z",
+    "intents": [
+      {
+        "intent": "Greeting",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "examples": [
+          {
+            "text": "Hello",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Hii",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Hey",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Good Morning",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Good Afternoon",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Namaste",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          }
+        ],
+        "description": "Collection of all greetings"
+      },
+      {
+        "intent": "hours_info",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "examples": [
+          {
+            "text": "What time are you open until?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "What are your shop timings?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "what are the hours of operation for your Pune store",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "what are you hours of operation in Mumbai",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Are you open on Sundays?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "What are your hours?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "What are your hours of operation?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Are you open on Saturdays?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Are you open on Christmas' Day?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "When do you close",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "What days are you closed on?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "When are you open",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "When do you open",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Shop timing in India?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          }
+        ]
+      },
+      {
+        "intent": "Good_bye",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "examples": [
+          {
+            "text": "Bye bye",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Good bye",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "see you",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Bye",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          }
+        ],
+        "description": "Collection of good bye related words"
+      },
+      {
+        "intent": "location_info",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "examples": [
+          {
+            "text": "what's the address of your Sydney store?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Where are you physically located?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Where are your stores?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Locations in Australia",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "locations in India",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "What are your locations?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "What's the address of your Mumbai store?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "do you have a bakery shop in Pune",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Give me a list of locations",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "List of location",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "list of your locations",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "where is your Mumbai store?",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          }
+        ],
+        "description": "It looks like we are not on same page today. Can you please contact on +917667655008 for mor information"
+      },
+      {
+        "intent": "Thank_you",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "examples": [
+          {
+            "text": "Thanks",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Appreciated",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Cheers",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          },
+          {
+            "text": "Thank you",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z"
+          }
+        ],
+        "description": "Collect all thank you related words"
+      }
+    ],
+    "updated": "2024-08-03T07:18:11.147Z",
+    "entities": [
+      {
+        "entity": "occasion",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Anniversary",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Get Well",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "sickness.",
+              "ill",
+              "disease",
+              "cancer",
+              "hospital"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Valentine's Day",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "February 14",
+              "valentines",
+              "Feb 14",
+              "February 14th",
+              "heart day"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Christmas",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "December 25",
+              "Dec 25",
+              "December 25th",
+              "Yule"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Graduation",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "graduating",
+              "grad",
+              "graduate",
+              "commencement"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Wedding",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "best man",
+              "bride",
+              "groom",
+              "bridesmaid"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Congratulations",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "award",
+              "success"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Mother's Day",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "Mothering Sunday",
+              "Mum's Day",
+              "Mom's Day"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Birthday",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "b-day",
+              "bday",
+              "birth day"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Funeral",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "condolences",
+              "sorrow",
+              "grief",
+              "sympathy",
+              "wake",
+              "celebration of life"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Retirement",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z"
+      },
+      {
+        "entity": "location",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Sydney",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "Australia"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Pune",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "shivaji nagar",
+              "Hinjewadi",
+              "Puna",
+              "Poona"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Mumbai",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "BKC",
+              "Bandra",
+              "Mombay"
+            ]
+          }
+        ],
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "relationship",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "partner",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "friend",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "companion",
+              "bestie",
+              "roommate",
+              "neighbor",
+              "teacher",
+              "coach",
+              "colleague",
+              "associate",
+              "acquaintance",
+              "BFF"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "couple",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "relative",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "step",
+              "cousin",
+              "aunt",
+              "uncle",
+              "granny",
+              "grannie",
+              "grandpa",
+              "grandma",
+              "brother",
+              "sister"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "father",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "pops",
+              "daddy",
+              "dad"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "mother",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "mama",
+              "momsie",
+              "mommy",
+              "mum",
+              "mom"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "boyfriend",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "beau"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "husband",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "girlfriend",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": [
+              "fiancee",
+              "GF"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "wife",
+            "created": "2024-08-03T07:18:27.222Z",
+            "updated": "2024-08-03T07:18:27.222Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z"
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 5,
+          "entities": 3,
+          "dialog_nodes": 18
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "No Location",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our hours of operations are listed on <a href=\"https://example.com/hours/\">our Hours page</a>"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1722665893165",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "true",
+        "dialog_node": "node_1_1722667310886",
+        "previous_sibling": "node_9_1722666903931"
+      },
+      {
+        "type": "standard",
+        "title": "Specific location",
+        "parent": "node_9_1722665893165",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "@location",
+        "dialog_node": "node_9_1722666903931"
+      },
+      {
+        "type": "standard",
+        "title": "Thank you",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Thank you. Please Visit My store"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1722664215031",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "#Thank_you",
+        "dialog_node": "node_5_1722664579126",
+        "previous_sibling": "node_7_1722664568056"
+      },
+      {
+        "type": "standard",
+        "title": "Good Bye",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Good bye"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1722664215031",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "#Good_bye",
+        "dialog_node": "node_5_1722664580982",
+        "previous_sibling": "node_5_1722664579126"
+      },
+      {
+        "type": "standard",
+        "title": "Greeting",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hii..Hope you are doing well . How can i help you?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1722664215031",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "#Greeting",
+        "dialog_node": "node_7_1722664568056"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Shop No 2, BKC, Mumbai"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1722668128704",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "@location:Mumbai",
+        "dialog_node": "response_9_1722668268291",
+        "previous_sibling": "response_9_1722668184488"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Shop 3, 5th Avenue, Sydney"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1722668128704",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "@location:Sydney",
+        "dialog_node": "response_1_1722668308357",
+        "previous_sibling": "response_9_1722668268291"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "shop No 1, Shivaji Nagar,JM Road, Pune"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1722668128704",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "@location:Pune",
+        "dialog_node": "response_9_1722668184488"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our  Sydney  Store  is open from 9 am  to 6 pm"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1722666903931",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "@location:Sydney",
+        "dialog_node": "response_9_1722667121899",
+        "previous_sibling": "response_2_1722667081662"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our Mumbai Store  is open from 8 am  to 7 pm"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1722666903931",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "@location:Mumbai",
+        "dialog_node": "response_2_1722667081662",
+        "previous_sibling": "response_4_1722666984488"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our  Pune  Store  is open from 9 am  to 6 pm"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1722666903931",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "@location:Pune",
+        "dialog_node": "response_4_1722666984488"
+      },
+      {
+        "type": "standard",
+        "title": "invalid Location ",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our Shop address are listed on <a href=\"https://example.com/hours/\">our Address Page</a>"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1722667626873",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "true",
+        "dialog_node": "node_7_1722668406350",
+        "previous_sibling": "node_9_1722668128704"
+      },
+      {
+        "type": "standard",
+        "title": "Shop address ",
+        "parent": "node_4_1722667626873",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "@location",
+        "dialog_node": "node_9_1722668128704"
+      },
+      {
+        "type": "standard",
+        "title": "Shop Address ",
+        "output": {
+          "generic": [
+            {
+              "values": [],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "next_step": {
+          "behavior": "skip_user_input"
+        },
+        "conditions": "#location_info",
+        "dialog_node": "node_4_1722667626873",
+        "previous_sibling": "node_9_1722665893165"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_5_1722664215031",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "folder",
+        "title": "Basic Conversations",
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "",
+        "dialog_node": "node_5_1722664215031",
+        "previous_sibling": "node_4_1722667626873"
+      },
+      {
+        "type": "standard",
+        "title": "Shop  Hours",
+        "output": {
+          "generic": []
+        },
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "next_step": {
+          "behavior": "skip_user_input"
+        },
+        "conditions": "#hours_info",
+        "dialog_node": "node_9_1722665893165",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hellow, My name is Piyush chatbot and I here to assist you with store hours and store location information."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            },
+            {
+              "values": [],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-08-03T07:18:27.222Z",
+        "updated": "2024-08-03T07:18:27.222Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "learning_opt_out": false
+  },
+  "description": "Initial Chatbot Implementation",
+  "assistant_id": "36f3afd9-336d-4c1d-b284-06c70a44a00c",
+  "dialog_settings": {
+    "source_assistant": "745cc815-303d-44cf-b633-9dbbecdf2409"
+  },
+  "assistant_references": [
+    {
+      "name": "Flower Shop Chatbot",
+      "assistant_id": "745cc815-303d-44cf-b633-9dbbecdf2409",
+      "skill_reference": "main skill"
+    }
+  ]
+}
